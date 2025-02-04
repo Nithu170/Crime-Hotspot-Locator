@@ -1,5 +1,6 @@
 **Crime Hotspot Detection 🚨**
 Enhancing Public Safety with Machine Learning
+
 **1.Project Overview:**
 Crime Hotspot Detection is a machine learning-based approach to identify high-crime areas in Los Angeles from 2020 to 2024. The project utilizes LAPD crime data to provide actionable insights, enabling law enforcement and city planners to implement targeted security measures for a safer community.
 
@@ -17,17 +18,21 @@ NumPy – Efficient numerical computations.
 Pandas – Data cleaning, manipulation, and preprocessing.
 Scikit-learn – Machine learning model implementation.
 Matplotlib & Seaborn – Data visualization and exploratory analysis.
+
 **4.Key Metrics & Performance:**
 **Training Accuracy:** Measures the model’s performance on training data.
 **Test Accuracy:** Evaluates how well the model generalizes to unseen data.
 **Cross-Validation Score:** Ensures robustness by averaging performance across multiple data splits.
 🚀 Machine Learning Models Implemented
+
 **5.Two predictive models were developed and tested:**
 Logistic Regression
 Random Forest Classifier
+
 **6.Model Selection & Optimization:**
 Hyperparameter tuning was performed using Grid Search CV for optimal model performance.
 After rigorous evaluation, Logistic Regression emerged as the best-performing model, providing a balance between accuracy, precision, recall, and F1-score, making it suitable for handling class imbalance.
+
 **7.Future Enhancements:**
 While the results are promising, further improvements can be made by:
 ✔ Integrating additional datasets such as demographic and socioeconomic factors.
